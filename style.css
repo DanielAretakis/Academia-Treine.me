@@ -8,35 +8,45 @@ html{
   font-size: 72.5%;
 }
 
-.page{
-  display: grid;
-  margin: 6.5rem 13.8rem 3rem;
-  gap: 5rem;
+body{
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
 }
 
-header{
+.page{
+  display: grid;
+  margin: 0 13.8rem 3rem;
+  padding-top: 6.5rem;
+  gap: 3rem;
+}
+
+nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header img{
+nav img{
   height: 2.25rem;
 }
 
-header a{
+nav a{
   font: 400 1.8rem 'Mulish', sans-serif;
   text-decoration: none;
   color: #1F1534;
 }
 
-header ul{
+nav ul{
   display: flex;
   gap: 4.8rem;
 }
 
-header ul li{
+nav ul li{
   list-style: none;
+}
+
+nav ul li a:hover{
+  color: #89C5CC;
 }
 
 main{
